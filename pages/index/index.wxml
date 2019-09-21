@@ -1,0 +1,46 @@
+<view class="inpbox">
+    <input type="text" placeholder="请输入搜索内容"/>
+    <view>
+        <image id="sou" src="../../navicon/sou.png" mode="widthFix"/>
+    </view>
+</view>
+<swiper indicator-dots="true" indicator-color="#d4d4d4" indicator-active-color="#fff" autoplay="true" interval="3000" circular="true">
+  <swiper-item>
+      <image class="imgs" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568972311322&di=b5f3b3f0892957dc274aad667a176048&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Ftranslate%2F19%2Fw1024h595%2F20190920%2Ff48b-iewtemz4172127.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+      <image class="imgs" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569567330&di=3cb601f4a119284563672b0f5b6bb658&imgtype=jpg&er=1&src=http%3A%2F%2Fcdnq.duitang.com%2Fuploads%2Fitem%2F201401%2F05%2F20140105142943_Zemjt.jpeg"></image>
+  </swiper-item>
+  <swiper-item>
+      <image class="imgs" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=250354949,692980960&fm=26&gp=0.jpg"></image>
+  </swiper-item>
+</swiper>
+<view class="wumi">
+  <text>人气专区</text><text class="gd"> | 查看更多></text>
+</view>
+<view class="wuvideo">
+  <view class="vdbox" wx:for="{{obj}}"  wx:for-item="v" bindtap='search'>
+    <image src="{{v.imgurl}}"></image>
+    <view  class="xintitbox">
+      <text class="xintit">{{v.title}}</text>
+    </view>
+    <view class="bofang"> 播放 {{v.bofang}}次 </view>
+    <view class="shijian">{{v.shijian}}</view>
+  </view>
+
+</view>
+<view class="wumi">
+  <text>Jay Zhou</text><text class="gd"> | 查看更多></text>
+</view>
+<view class="wuvideo">
+
+    <view class="vdbox" wx:for="{{obj2}}"  wx:for-item="v" >
+      <image src="{{v.imgurl}}"></image>
+      <view  class="xintitbox">
+        <text class="xintit">{{v.title}}</text>
+      </view>
+      <view class="bofang"> 播放 {{v.bofang}} 次</view>
+      <view class="shijian">{{v.shijian}}</view>
+    </view>
+
+</view>

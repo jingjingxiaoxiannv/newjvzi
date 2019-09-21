@@ -1,0 +1,66 @@
+/* pages/index/index.wxss */
+.inpbox{
+  width: 100%;
+  height: 50rpx;
+  padding:10rpx; 
+  border-bottom: 1rpx solid gainsboro;
+  display: flex;
+  justify-content: space-around;
+}
+.inpbox input{
+  background: gainsboro;
+  height: 50rpx;
+  width: 500rpx;
+  border-radius: 20rpx;
+  padding-left: 20rpx;
+  font-size: 32rpx;
+}
+#sou{
+  width: 48rpx;
+}
+.imgs{
+  width: 100%;
+  height: 100%;
+}
+.wumi{
+  margin-top: 20rpx;
+  padding: 20rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+  color: orange;
+  width: 100%;
+}
+.gd{
+  font-size: 30rpx
+}
+.wuvideo{
+  width: 375;
+  padding: 20rpx;
+  border-radius: 5rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+.vdbox{
+  width: 340rpx;
+  border: 1rpx solid gainsboro;
+  margin-bottom: 20rpx;
+
+}
+.vdbox image{
+  width: 340rpx;
+  height: 180rpx;
+}
+.xintitbox{
+  width: 340rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.shijian{
+  float: right;
+}
+.bofang{
+  color: gold;
+  line-height: 60rpx;
+}

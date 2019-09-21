@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/find/find",
+    "pages/mour/mour",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffcc00",
+    "navigationBarTitleText": "橘子音乐",
+    "navigationBarTextStyle": "white",
+    "backgroundColor":"#000000",
+    "enablePullDownRefresh":true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor":"#fec500",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "橘子",
+      "iconPath": "navicon/home1.png",
+      "selectedIconPath": "navicon/home2.png"
+    },
+    {
+      "pagePath": "pages/find/find",
+      "text": "发现",
+      "iconPath": "navicon/fj2.png",
+      "selectedIconPath": "navicon/fj1.png"
+    },
+    {
+      "pagePath": "pages/mour/mour",
+      "text": "更多",
+      "iconPath": "navicon/mour1.png",
+      "selectedIconPath": "navicon/mour2.png"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "navicon/my2.png",
+      "selectedIconPath": "navicon/my1.png"
+    }
+    ]
+  }
+}
